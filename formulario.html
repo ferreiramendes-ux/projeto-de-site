@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body class="corpo">
+    <header>
+        <nav>
+            <a href="formulario.html">Sobre você</a>
+            <a href="personagens.html">Personagens</a>
+            <a href="trailer.html">Trailer</a>
+            <a href="home.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action=""><h1 class="espaçamento">Sobre você</h1>
+                <label for="" class="espaçamento">Nome:</label>
+                <input type="text" class="espaçamento"><br>
+                <label for="" class="espaçamento">Idade:</label>
+                <input type="text" maxlength="2" class="espaçamento"><br>
+                <label for="" class="espaçamento">Já assistiu?</label><br>
+                <input type="radio" name="escolha" class="espaçamento" >Sim <input type="radio" name="escolha"> Não <br>
+                <label for="" class="espaçamento" id="resposta">Se sim, Avalie:</label>
+                <select name="" id="resposta" class="espaçamento">
+                    <option value="">0 (Péssimo)</option>
+                    <option value="">1 (Muito ruim)</option>
+                    <option value="">2 (Ruim)</option>
+                    <option value="">3 (Regular)</option>
+                    <option value="">4 (bom)</option>
+                    <option value="">5 (Muito bom)</option>
+                </select><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

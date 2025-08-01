@@ -1,0 +1,109 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+.class a img{
+    height: 100%;
+    
+}
+p {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+ol{
+    color: aliceblue;
+}
+img {
+    margin-top: 6vh;
+}
+header>nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2.5vh;
+}
+a  {
+    padding: 1rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+    overflow: visible;
+    border-radius: 15px;
+}
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+    background-color: aliceblue;
+    color: rgb(25, 100, 255);
+    transition: 0.3s;
+}
+.corpo {
+    background-image: url(imagem/imgfundo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15vh;
+
+}
+section {
+    background-color: rgb(50, 155, 255);
+    height: 45vh;
+    width: 20vw;
+    border-radius: 15px;
+    border-color: antiquewhite;
+    border-style: solid;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(250, 241, 241);
+}
+
+
+
+form {
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.espaçamento {
+    margin: 8px;
+}
+
+input {
+    border-radius: 20px;
+    background-color: rgb(25, 100, 255);
+    width: auto;
+    height: 20px;
+}
+button {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(25, 100, 255);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+select {
+    background-color: rgb(25, 100, 255);
+    height: 30px;
+    border-radius: 15px; 
+}
+#imagem {
+    padding-left: 42.3%;
+}
+#tudo {
+    text-align: center;
+}
+#ano {
+    font-size: 12px;
+}
